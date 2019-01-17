@@ -14,6 +14,8 @@ CREATE TABLE `session` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `userid` int(11) NOT NULL COMMENT '用户ID',
   `sessionid` varchar(128) NOT NULL COMMENT '用户session',
+  `state` smallint(6) DEFAULT '1' COMMENT 'session状态 1 启用 0 禁用',
+  `update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP() ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
   `create_time` datetime NOT NULL COMMENT '添加时间',
   PRIMARY KEY (`id`),
   UNIQUE KEY `sessionid` (`sessionid`)

@@ -38,7 +38,7 @@ class Register(Handler):
         data['password'] = password
         data['create_time'] = time.strftime('%Y-%m-%d %H:%M:%S')
         # 数据库存数据
-        with get_connection('gbb') as db:
+        with get_connection('userdb') as db:
             insert_ret = db.insert(
                 table='user',
                 values=data
@@ -46,7 +46,7 @@ class Register(Handler):
 
         if not insert_ret:
             raise DBError('insert data failed')
-        with get_connection('gbb') as db:
+        with get_connection('userdb') as db:
             ret = db.select_one(
                 table='user',
                 fields='id',  # 查询表里的字段名称
@@ -76,4 +76,13 @@ class Register(Handler):
                 just_letters_int_func(data.get('username'))
             except:
                 raise ParamError('账号格式不正确')
+        # 校验账号是否已注册
+        with get_connection('userdb') as db:
+            ret = db.select_one(
+                table='user',
+                fields='id',  # 查询表里的字段名称
+                where={'username': data['username']},  # 条件
+            )
+        if ret:
+            raise ParamError('此账号已注册，请更换其他账号')
         return data

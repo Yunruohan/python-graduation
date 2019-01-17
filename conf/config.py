@@ -17,7 +17,7 @@ LOGFILE = 'stdout'
 
 # 数据库配置
 DATABASE = {
-    'gbb': {
+    'userdb': {
         'engine': 'pymysql',
         'db': 'gbb',
         'host': '127.0.0.1',

@@ -15,7 +15,7 @@ class LOGIN():
         name = params.get('name')
         password = params.get('password')
         # 数据库存数据
-        with get_connection('gbb') as db:
+        with get_connection('userdb') as db:
             update_ret = db.update(
                 table='users',
                 values=params
