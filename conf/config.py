@@ -19,7 +19,7 @@ LOGFILE = 'stdout'
 DATABASE = {
     'gbb': {
         'engine': 'pymysql',
-        'db': 'gbb',
+        'db': 'sd',
         'host': '127.0.0.1',
         'port': 3306,
         'user': 'root',

@@ -2,14 +2,448 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="941284dc-7204-4b27-8597-eec99e2f131b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/api.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/graduation.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/handler/user/registered.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/handler/user/registered.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-graduation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-graduation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/thriftCompiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/date_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/date_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/dbpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/dbpool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/getconf.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/getconf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/http_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/http_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/pager.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/pager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/qfresponse.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/qfresponse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/qfuser.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/qfuser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/redispool.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/redispool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/ruler.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/ruler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/base/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/base/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/conf/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/conf/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/data/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/data/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/data/ca-certificates.crt" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/data/ca-certificates.crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/example/server.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/example/server.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/globale/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/globale/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/globale/currency.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/globale/currency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/globale/timezone.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/globale/timezone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/aes_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/aes_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/alipay.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/alipay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/alipay_overseas.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/alipay_overseas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/alipay_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/alipay_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/alipay_wap.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/alipay_wap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/baifubao.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/baifubao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/createid.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/createid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/huiyi_constant.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/huiyi_constant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/huiyi_err.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/huiyi_err.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/huiyi_field55.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/huiyi_field55.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/huiyi_proto.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/huiyi_proto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/huiyi_spec.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/huiyi_spec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/py8583/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/py8583/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/py8583/constant.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/py8583/constant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/py8583/err.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/py8583/err.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/py8583/field.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/py8583/field.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/py8583/py8583.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/py8583/py8583.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/py8583/spec.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/py8583/spec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/test/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/test/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/test/test_iso8583.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/test/test_iso8583.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/test/test_proto.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/huiyi/test/test_proto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/jdpay.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/jdpay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/test/key/alipay_rsa_public_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/test/key/alipay_rsa_public_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/test/key/qf_rsa_private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/test/key/qf_rsa_private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/test/key/rsa_private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/test/key/rsa_private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/test/key/rsa_public_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/test/key/rsa_public_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/test/test_alipay_overseas.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/test/test_alipay_overseas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/test/test_alipay_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/test/test_alipay_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/test/test_weixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/test/test_weixin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/library/weixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/library/weixin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/micro/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/micro/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/micro/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/micro/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/micro/project/bin/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/micro/project/bin/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/micro/project/bin/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/micro/project/bin/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/micro/project/bin/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/micro/project/bin/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/micro/project/conf/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/micro/project/conf/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/push/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/push/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/push/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/push/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/qfpay/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/qfpay/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/qfpay/account_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/qfpay/account_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/qfpay/apolloclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/qfpay/apolloclient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/qfpay/apollouser.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/qfpay/apollouser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/qfpay/defines.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/qfpay/defines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/qfpay/marketing_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/qfpay/marketing_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/qfpay/msgpassclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/qfpay/msgpassclient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/qfpay/presmsclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/qfpay/presmsclient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/qfpay/qfresponse.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/qfpay/qfresponse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/qfpay/qfuser.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/qfpay/qfuser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/qfpay/wxmp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/qfpay/wxmp_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/server/TQFForkServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/server/TQFForkServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/server/TQFThreadPoolServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/server/TQFThreadPoolServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/server/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/server/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/server/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/server/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/server/codisconnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/server/codisconnection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/server/defines.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/server/defines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/server/payrequest.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/server/payrequest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/server/rpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/server/rpc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/server/selector.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/server/selector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/server/threadpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/server/threadpool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/server/thriftserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/server/thriftserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/test/dotest.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/test/dotest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/test/perf.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/test/perf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/test/test_rpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/test/test_rpc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/accesstoken/AccessToken.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/accesstoken/AccessToken.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/accesstoken/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/accesstoken/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/accesstoken/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/accesstoken/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/accesstoken/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/accesstoken/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account2/Account2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account2/Account2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account2/account2.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account2/account2.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account2/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account2/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account2/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account2/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account_checking/AccountCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account_checking/AccountCheck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account_checking/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account_checking/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account_checking/check.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account_checking/check.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account_checking/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account_checking/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account_checking/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/account_checking/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/actv_template/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/actv_template/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/actv_template/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/actv_template/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/actv_template/tempalService.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/actv_template/tempalService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/actv_template/tempalService.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/actv_template/tempalService.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/actv_template/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/actv_template/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/apollo/ApolloServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/apollo/ApolloServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/apollo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/apollo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/apollo/apollo.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/apollo/apollo.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/apollo/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/apollo/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/apollo/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/apollo/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/audit/AuditServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/audit/AuditServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/audit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/audit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/audit/audit.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/audit/audit.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/audit/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/audit/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/audit/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/audit/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/bigpay/Bigpay.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/bigpay/Bigpay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/bigpay/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/bigpay/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/bigpay/bigpay.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/bigpay/bigpay.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/bigpay/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/bigpay/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/bigpay/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/bigpay/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/captcha/CaptchaServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/captcha/CaptchaServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/captcha/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/captcha/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/captcha/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/captcha/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/captcha/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/captcha/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/cashdraw/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/cashdraw/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/cashdraw/cashdraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/cashdraw/cashdraw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/cashdraw/cashdraw.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/cashdraw/cashdraw.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/cashdraw/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/cashdraw/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/cashdraw/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/cashdraw/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/check2/Check2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/check2/Check2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/check2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/check2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/check2/check2.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/check2/check2.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/check2/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/check2/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/check2/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/check2/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/clearing.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/clearing.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/clearing/Clearing.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/clearing/Clearing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/clearing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/clearing/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/clearing/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/clearing/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/clearing/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/clearing/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_activiquer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_activiquer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_activiquer/activiquer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_activiquer/activiquer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_activiquer/activiquer.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_activiquer/activiquer.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_activiquer/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_activiquer/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_activiquer/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_activiquer/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_coupon_recall/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_coupon_recall/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_coupon_recall/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_coupon_recall/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_coupon_recall/couprecall.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_coupon_recall/couprecall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_coupon_recall/couprecall.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_coupon_recall/couprecall.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_coupon_recall/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_coupon_recall/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_engine/DataEngine-remote" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_engine/DataEngine-remote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_engine/DataEngine.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_engine/DataEngine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_engine/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_engine/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_engine/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_engine/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_engine/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/data_engine/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/encryptor/Encryptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/encryptor/Encryptor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/encryptor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/encryptor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/encryptor/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/encryptor/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/encryptor/encryptor.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/encryptor/encryptor.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/encryptor/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/encryptor/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fenqi_api/FenqiServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fenqi_api/FenqiServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fenqi_api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fenqi_api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fenqi_api/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fenqi_api/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fenqi_api/fenqi_api.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fenqi_api/fenqi_api.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fenqi_api/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fenqi_api/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/finance.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/finance.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/finance/Finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/finance/Finance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/finance/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/finance/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/finance/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/finance/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/finance/finance.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/finance/finance.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/finance/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/finance/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund/FundService.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund/FundService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund/fund.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund/fund.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund2.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund2.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund2/Fund2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund2/Fund2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund2/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund2/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund2/fund2.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund2/fund2.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund2/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fund2/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fundsuspend/FundSuspendService.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fundsuspend/FundSuspendService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fundsuspend/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fundsuspend/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fundsuspend/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fundsuspend/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fundsuspend/fund_suspend.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fundsuspend/fund_suspend.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fundsuspend/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/fundsuspend/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/kuma/Kuma.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/kuma/Kuma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/kuma/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/kuma/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/kuma/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/kuma/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/kuma/kuma.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/kuma/kuma.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/kuma/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/kuma/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/manage/Manage-remote" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/manage/Manage-remote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/manage/Manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/manage/Manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/manage/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/manage/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/manage/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/manage/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/manage/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/manage/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/mchnt_thrift/MchntThrift.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/mchnt_thrift/MchntThrift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/mchnt_thrift/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/mchnt_thrift/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/mchnt_thrift/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/mchnt_thrift/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/mchnt_thrift/mchnt_thrift.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/mchnt_thrift/mchnt_thrift.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/mchnt_thrift/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/mchnt_thrift/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpass/MsgPass.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpass/MsgPass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpass/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpass/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpass/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpass/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpass/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpass/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpush/MsgPush.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpush/MsgPush.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpush/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpush/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpush/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpush/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpush/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/msgpush/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/notifier/Notifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/notifier/Notifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/notifier/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/notifier/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/notifier/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/notifier/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/notifier/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/notifier/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/online_payserver/OnlinePayServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/online_payserver/OnlinePayServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/online_payserver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/online_payserver/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/online_payserver/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/online_payserver/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/online_payserver/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/online_payserver/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/open_user/OpenUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/open_user/OpenUser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/open_user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/open_user/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/open_user/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/open_user/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/open_user/open_user.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/open_user/open_user.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/open_user/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/open_user/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/order/Order.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/order/Order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/order/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/order/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/order/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/order/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/order/order.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/order/order.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/order/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/order/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/org/OrgServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/org/OrgServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/org/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/org/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/org/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/org/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/org/org.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/org/org.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/org/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/org/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseafilter/OverseaFilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseafilter/OverseaFilter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseafilter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseafilter/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseafilter/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseafilter/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseafilter/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseafilter/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseas_payonline/PayOnline.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseas_payonline/PayOnline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseas_payonline/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseas_payonline/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseas_payonline/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseas_payonline/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseas_payonline/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/overseas_payonline/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payadmin/PayAdmin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payadmin/PayAdmin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payadmin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payadmin/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payadmin/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payadmin/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payadmin/payadmin.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payadmin/payadmin.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payadmin/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payadmin/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/paycell_coupon_pay/PayCellCouponPay.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/paycell_coupon_pay/PayCellCouponPay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/paycell_coupon_pay/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/paycell_coupon_pay/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/paycell_coupon_pay/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/paycell_coupon_pay/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/paycell_coupon_pay/coupon_pay.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/paycell_coupon_pay/coupon_pay.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/paycell_coupon_pay/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/paycell_coupon_pay/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payoffline/PayOffline.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payoffline/PayOffline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payoffline/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payoffline/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payoffline/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payoffline/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payoffline/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payoffline/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payprocessor/PayProcessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payprocessor/PayProcessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payprocessor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payprocessor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payprocessor/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payprocessor/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payprocessor/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payprocessor/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payquick_api/PayquickServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payquick_api/PayquickServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payquick_api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payquick_api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payquick_api/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payquick_api/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payquick_api/payquick_api.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payquick_api/payquick_api.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payquick_api/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/payquick_api/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/prepaid/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/prepaid/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/prepaid/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/prepaid/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/prepaid/prepaid.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/prepaid/prepaid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/prepaid/prepaid.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/prepaid/prepaid.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/prepaid/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/prepaid/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/presms/PreSmsThriftServer-remote" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/presms/PreSmsThriftServer-remote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/presms/PreSmsThriftServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/presms/PreSmsThriftServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/presms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/presms/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/presms/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/presms/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/presms/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/presms/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/pushswift/PushSwift.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/pushswift/PushSwift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/pushswift/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/pushswift/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/pushswift/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/pushswift/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/pushswift/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/pushswift/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_account/UserAccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_account/UserAccount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_account/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_account/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_account/account.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_account/account.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_account/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_account/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_account/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_account/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_customer/QFCustomer-remote" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_customer/QFCustomer-remote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_customer/QFCustomer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_customer/QFCustomer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_customer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_customer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_customer/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_customer/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_customer/customer.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_customer/customer.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_customer/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_customer/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_marketing/QFMarketing.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_marketing/QFMarketing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_marketing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_marketing/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_marketing/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_marketing/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_marketing/marketing.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_marketing/marketing.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_marketing/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_marketing/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_wxmp/QFMP.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_wxmp/QFMP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_wxmp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_wxmp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_wxmp/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_wxmp/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_wxmp/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_wxmp/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_wxmp/wxmp.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qf_wxmp/wxmp.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qtaccountserver/QtAccountServer-remote" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qtaccountserver/QtAccountServer-remote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qtaccountserver/QtAccountServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qtaccountserver/QtAccountServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qtaccountserver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qtaccountserver/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qtaccountserver/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qtaccountserver/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qtaccountserver/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qtaccountserver/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qudao/QudaoServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qudao/QudaoServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qudao/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qudao/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qudao/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qudao/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qudao/qudao.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qudao/qudao.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qudao/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/qudao/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/remit2/Remit2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/remit2/Remit2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/remit2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/remit2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/remit2/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/remit2/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/remit2/remit.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/remit2/remit.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/remit2/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/remit2/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/risk/RiskServer-remote" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/risk/RiskServer-remote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/risk/RiskServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/risk/RiskServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/risk/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/risk/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/risk/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/risk/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/risk/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/risk/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/salesman/SalesmanServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/salesman/SalesmanServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/salesman/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/salesman/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/salesman/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/salesman/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/salesman/salesman.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/salesman/salesman.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/salesman/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/salesman/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/session/Session.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/session/Session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/session/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/session/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/session/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/session/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/session/session.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/session/session.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/session/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/session/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/settle2/Settle2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/settle2/Settle2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/settle2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/settle2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/settle2/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/settle2/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/spring/Spring.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/spring/Spring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/spring/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/spring/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/spring/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/spring/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/spring/spring.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/spring/spring.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/spring/tmp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/spring/tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/spring/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/spring/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/tool/Tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/tool/Tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/tool/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/tool/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/tool/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/tool/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/tool/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/tool/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/transfer/TransFerService.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/transfer/TransFerService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/transfer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/transfer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/transfer/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/transfer/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/transfer/transfer.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/transfer/transfer.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/transfer/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/transfer/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/user_account_define/UserAccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/user_account_define/UserAccount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/user_account_define/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/user_account_define/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/user_account_define/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/user_account_define/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/user_account_define/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/user_account_define/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/usercontrol/UserControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/usercontrol/UserControl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/usercontrol/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/usercontrol/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/usercontrol/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/usercontrol/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/usercontrol/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/usercontrol/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wallet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wallet/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wallet/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wallet/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wallet/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wallet/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wallet/wallet.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wallet/wallet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/weifutong/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/weifutong/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/weifutong/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/weifutong/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/weifutong/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/weifutong/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/weifutong/weifutong.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/weifutong/weifutong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/weifutong/weifutong.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/weifutong/weifutong.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wepassport/User-remote" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wepassport/User-remote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wepassport/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wepassport/User.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wepassport/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wepassport/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wepassport/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wepassport/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wepassport/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wepassport/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withdraw/Withdraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withdraw/Withdraw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withdraw/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withdraw/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withdraw/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withdraw/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withdraw/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withdraw/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withdraw/withdraw.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withdraw/withdraw.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold/WithHold.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold/WithHold.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold/withhold.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold/withhold.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold2/Withhold2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold2/Withhold2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold2/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold2/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold2/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold2/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold2/withhold2.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/withhold2/withhold2.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wxcard/WXCard.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wxcard/WXCard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wxcard/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wxcard/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wxcard/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wxcard/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wxcard/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wxcard/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wxcard/wxcard.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/wxcard/wxcard.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/xaccount/XAccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/xaccount/XAccount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/xaccount/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/xaccount/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/xaccount/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/xaccount/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/xaccount/ttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/xaccount/ttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/thriftclient/xaccount/xaccount.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/thriftclient/xaccount/xaccount.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/utils/createid.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/utils/createid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/utils/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/utils/mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/advance.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/advance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/static/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/static/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/static/test.gogogo" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/static/test.gogogo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/static/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/static/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/testapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/testapp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/testapp/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/testapp/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/bin/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/conf/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/conf/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/conf/config_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/conf/config_debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/conf/gunicorn_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/conf/gunicorn_setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/project/conf/webconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/project/conf/webconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/reloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/reloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/session2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/session2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/qfcommon/web/template.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/qfcommon/web/template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/graduation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/graduation.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,50 +451,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1757255776">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="md" value="1" />
-          <entry key="py" value="4" />
-          <entry key="sql" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Markdown" value="1" />
-          <entry key="Python" value="4" />
-          <entry key="SQL" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="8" />
-          <entry key="md" value="55" />
-          <entry key="py" value="542" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Markdown" value="55" />
-          <entry key="Python" value="550" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="228">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="e#16#53#0" expanded="true" />
               </folding>
@@ -68,55 +465,58 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/handler/user/registered.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+            <state relative-caret-position="-580">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/handler/user/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#99#108#0" expanded="true" />
+                <element signature="e#101#157#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/handler/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-145">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#52#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/webconfig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-133" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki/api.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="247">
-                <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki/graduation.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/handler/demo/demo_handler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="67" column="13" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="67" selection-end-column="13" />
+            <state relative-caret-position="346">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
-                <element signature="e#134#148#0" expanded="true" />
+                <element signature="e#16#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,8 +540,9 @@
         <option value="$PROJECT_DIR$/wiki/graduation.sql" />
         <option value="$PROJECT_DIR$/bin/urls.py" />
         <option value="$PROJECT_DIR$/wiki/api.md" />
-        <option value="$PROJECT_DIR$/conf/config.py" />
         <option value="$PROJECT_DIR$/bin/handler/user/registered.py" />
+        <option value="$PROJECT_DIR$/bin/server.py" />
+        <option value="$PROJECT_DIR$/conf/config.py" />
       </list>
     </option>
   </component>
@@ -152,8 +553,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="79" />
+    <option name="y" value="29" />
+    <option name="width" value="1142" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -161,6 +564,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,13 +588,6 @@
               <item name="python-graduation" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-graduation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-graduation" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -203,11 +600,14 @@
               <item name="python-graduation" type="462c0819:PsiDirectoryNode" />
               <item name="wiki" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python-graduation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,6 +629,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-graduation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.server" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -244,38 +672,67 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124394186" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21929824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.37906647" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5668073" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34739804" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21929824" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.56821376" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3755274" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bin/handler/demo/demo_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="67" column="13" selection-start-line="63" selection-start-column="12" selection-end-line="67" selection-end-column="13" />
+          <folding>
+            <element signature="e#134#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/graduation.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -293,39 +750,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/webconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/handler/user/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#101#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/handler/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="228">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="e#16#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/config.py">
+    <entry file="file://$PROJECT_DIR$/bin/handler/user/registered.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="-580">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/handler/demo/demo_handler.py">
+    <entry file="file://$PROJECT_DIR$/bin/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="67" column="13" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="67" selection-end-column="13" />
+        <state relative-caret-position="-145">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="e#134#148#0" expanded="true" />
+            <element signature="e#52#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/handler/user/registered.py">
+    <entry file="file://$PROJECT_DIR$/conf/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        <state relative-caret-position="346">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
-            <element signature="e#99#108#0" expanded="true" />
+            <element signature="e#16#25#0" expanded="true" />
           </folding>
         </state>
       </provider>

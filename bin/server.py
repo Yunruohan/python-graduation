@@ -15,7 +15,6 @@ else:
 
 import config
 import urls
-print config.HOST
 # 导入服务日志
 if config.LOGFILE:
     log = logger.install(config.LOGFILE)
