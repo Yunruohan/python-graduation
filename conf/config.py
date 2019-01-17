@@ -17,9 +17,9 @@ LOGFILE = 'stdout'
 
 # 数据库配置
 DATABASE = {
-    'sd': {
+    'gbb': {
         'engine': 'pymysql',
-        'db': 'sd',
+        'db': 'gbb',
         'host': '127.0.0.1',
         'port': 3306,
         'user': 'root',
