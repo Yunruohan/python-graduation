@@ -8,6 +8,7 @@ import logging
 from excepts import BaseError, SessionError
 
 from qfcommon.qfpay.qfresponse import QFRET, error
+from qfcommon.base.dbpool import get_connection, get_connection_exception
 
 log = logging.getLogger()
 
@@ -26,23 +27,21 @@ def func_register(mode='valid'):
     return _
 
 
-# @func_register()
-# def user(func):
-#     def _(self, *args, **kw):
-#         sessionid = self.get_cookie('sessionid')
-#         self.user = ApolloUser(sessionid=sessionid)
-#         if not self.user.is_login():
-#             raise SessionError('商户未登录')
-#         self.role = self.user.ses['role']
-#         self.org_uid = self.user.ses['org_uid']
-#
-#         ret = func(self, *args, **kw)
-#
-#         if self.user.ses.data:
-#             self.user.ses.save()
-#         return ret
-#
-#     return _
+@func_register()
+def user(func):
+    def _(self, *args, **kw):
+        with get_connection_exception('userdb') as db:
+            ret = db.select_one(
+                table='session',
+                fields='userid, sessionid, state',  # 查询表里的字段名称
+                where={'sessionid': self.get_cookie('sessionid')},  # 条件
+            )
+        if not ret or not ret.get('state'):
+            raise SessionError('商户未登录')
+        ret = func(self, *args, **kw)
+        return ret
+
+    return _
 
 
 @func_register()

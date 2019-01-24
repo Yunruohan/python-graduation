@@ -56,9 +56,10 @@ class InfoHandler(Handler):
     '''查看数据'''
 
     @check(['user', ])
-    def POST(self):
+    def GET(self):
         params = self.req.input()       # 接收前端的参数
         uid = params.get('uid')
+        print 231312321
         # 数据库存数据
         with get_connection('qf_org') as db:
             update_ret = db.select_one(

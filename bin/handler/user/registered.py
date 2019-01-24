@@ -16,6 +16,7 @@ from qfcommon.base.dbpool import get_connection, get_connection_exception
 
 re_email = re.compile(r'^([a-zA-Z\.0-9]+)@[a-zA-Z0-9]+\.[a-zA-Z0-9]{3}$')
 
+
 # 判断只有字母数字
 def just_letters_int_func(s):
     range_in = string.digits + string.ascii_letters
@@ -38,15 +39,15 @@ class Register(Handler):
         data['password'] = password
         data['create_time'] = time.strftime('%Y-%m-%d %H:%M:%S')
         # 数据库存数据
-        with get_connection('userdb') as db:
+        with get_connection_exception('userdb') as db:
             insert_ret = db.insert(
                 table='user',
                 values=data
             )
 
         if not insert_ret:
-            raise DBError('insert data failed')
-        with get_connection('userdb') as db:
+            raise DBError('insert user data failed')
+        with get_connection_exception('userdb') as db:
             ret = db.select_one(
                 table='user',
                 fields='id',  # 查询表里的字段名称
@@ -77,7 +78,7 @@ class Register(Handler):
             except:
                 raise ParamError('账号格式不正确')
         # 校验账号是否已注册
-        with get_connection('userdb') as db:
+        with get_connection_exception('userdb') as db:
             ret = db.select_one(
                 table='user',
                 fields='id',  # 查询表里的字段名称
