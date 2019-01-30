@@ -20,3 +20,14 @@ CREATE TABLE `session` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `sessionid` (`sessionid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='用户session表';
+
+CREATE TABLE `picture_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `userid` int(11) NOT NULL COMMENT '用户ID',
+  `name` varchar(50) DEFAULT NULL COMMENT '照片名称',
+  `url` varchar(500) NOT NULL COMMENT '照片路径',
+  `state` smallint(6) DEFAULT '1' COMMENT '图片状态 1 启用 0 禁用',
+  `create_time` datetime NOT NULL COMMENT '添加时间',
+  PRIMARY KEY (`id`),
+  KEY `userid` (`userid`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='图片记录表';

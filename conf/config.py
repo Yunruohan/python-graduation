@@ -43,3 +43,10 @@ REDIS_CONF = {
     'password': '',
     # 'default_expire' : 2 * 24 * 60 * 60
 }
+
+# excel接收后存储路径
+SAVE_PICTURES_URL = '/Users/beibei/Desktop/python-graduation/pictures/'
+# SAVE_PICTURES_URL = '/home/imgs'
+
+# 图片显示url
+BASE_URL = 'http://120.79.17.239'

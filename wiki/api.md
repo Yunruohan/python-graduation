@@ -69,3 +69,55 @@
     无
 
     ```
+    
+# 2. 图片处理类
+
+## 2.1. 上传图片
+
+- path: /pictures/upload
+- method: POST
+- param:
+
+    ``` javascript
+    {
+      "content": 图片文件,
+    }
+    ```
+
+- return: 
+
+    ``` javascript
+    {
+    "resperr": "",
+    "respcd": "0000",
+    "respmsg": "",
+    "data": {"url": "http://120.79.17.239/1005/4163ca54-243a-11e9-bc5b-a45e60bb775f.jpg",}
+    }
+
+    ```
+## 2.2. 展示图片
+
+- path: /pictures/show
+- method: GET
+- param:
+
+    ``` javascript
+    无
+    ```
+
+- return: 
+
+    ``` javascript
+    {
+    "resperr": "",
+    "respcd": "0000",
+    "respmsg": "",
+    "data": [
+        {
+            "url": "http://120.79.17.239/1005/4163ca54-243a-11e9-bc5b-a45e60bb775f.jpg",
+            "create_time": "2019-01-30 10:53:43",
+            "name": null
+        }
+    ]
+
+    ```

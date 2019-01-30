@@ -38,6 +38,7 @@ def user(func):
             )
         if not ret or not ret.get('state'):
             raise SessionError('商户未登录')
+        self.userid = ret.get('userid')
         ret = func(self, *args, **kw)
         return ret
 
