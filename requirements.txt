@@ -12,7 +12,7 @@ Click==7.0
 constantly==15.1.0
 contextlib2==0.5.5
 crypto==1.4.1
-cryptography==2.3
+cryptography==3.2
 data-packer==1.0.1
 enum34==1.1.6
 et-xmlfile==1.0.1
